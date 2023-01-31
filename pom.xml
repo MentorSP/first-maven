@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dmdev</groupId>
     <artifactId>first-maven</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>first-maven</name>
@@ -13,9 +14,7 @@
     <scm>
         <connection>scm:git:git@github.com:MentorSP/first-maven.git</connection>
         <developerConnection>scm:git:git@github.com:MentorSP/first-maven.git</developerConnection>
-        <!--        <url>https://dmdev.com/</url>-->
-      <tag>first-maven-1.0.0</tag>
-  </scm>
+    </scm>
 
     <modules>
         <module>database</module>
@@ -87,7 +86,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.0-M6</version>
-<!--                <configuration></configuration>-->
+                <!--                <configuration></configuration>-->
             </plugin>
         </plugins>
 
@@ -205,18 +204,18 @@
         <profile>
             <id>prod</id>
             <activation>
-<!--                <activeByDefault>true</activeByDefault>-->
-<!--                <os>-->
-<!--                    <family>windows</family>-->
-<!--                </os>-->
-<!--                <jdk>19</jdk>-->
-<!--                <file>-->
-<!--                    <exists>${basedir}/POM.xml</exists>-->
-<!--                </file>-->
-<!--                <property>-->
-<!--                    <name>testprop</name>-->
-<!--                    <value>example</value>-->
-<!--                </property>-->
+                <!--                <activeByDefault>true</activeByDefault>-->
+                <!--                <os>-->
+                <!--                    <family>windows</family>-->
+                <!--                </os>-->
+                <!--                <jdk>19</jdk>-->
+                <!--                <file>-->
+                <!--                    <exists>${basedir}/POM.xml</exists>-->
+                <!--                </file>-->
+                <!--                <property>-->
+                <!--                    <name>testprop</name>-->
+                <!--                    <value>example</value>-->
+                <!--                </property>-->
             </activation>
             <properties>
                 <app.env>prod</app.env>
