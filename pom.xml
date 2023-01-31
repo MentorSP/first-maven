@@ -12,9 +12,9 @@
     <name>first-maven</name>
 
     <scm>
-        <connection>scm:git:git@github.com:dmdev2020/apache-maven-starter.git</connection>
-        <developerConnection>scm:git:git@github.com:dmdev2020/apache-maven-starter.git</developerConnection>
-<!--        <url>https://dmdev.com/</url>-->
+        <connection>scm:git:git@github.com:MentorSP/first-maven.git</connection>
+        <developerConnection>scm:git:git@github.com:MentorSP/first-maven.git</developerConnection>
+        <!--        <url>https://dmdev.com/</url>-->
     </scm>
 
     <modules>
@@ -249,6 +249,5 @@
             <url>http://localhost:8110/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
-
 
 </project>
