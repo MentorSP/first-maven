@@ -14,7 +14,7 @@
         <connection>scm:git:https://github.com/MentorSP/first-maven.git</connection>
         <developerConnection>scm:git:https://github.com/MentorSP/first-maven.git</developerConnection>
         <url>https://github.com/MentorSP/first-maven</url>
-        <tag>first-maven-1.0.0</tag>
+        <tag>first-maven</tag>
     </scm>
 
     <modules>
